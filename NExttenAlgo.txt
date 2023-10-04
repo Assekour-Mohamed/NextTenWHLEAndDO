@@ -1,0 +1,26 @@
+algorithme NextTenNum  
+variables 
+  m,i :entier
+ debut 
+  ecrire("enter the number")
+  lire(m)
+  i <- 0
+  tant que i<10 faire
+    ecrire(m+1)
+  fintantque
+fin
+
+repeter jusqua
+algorithme NextTenNum  
+variables 
+  m,i :entier
+ debut 
+  ecrire("enter the number")
+  lire(m)
+  i <- 0
+  repeter 
+  ecrire (m+1)
+  i = i+1
+  jusqua i>10
+ 
+fin
